@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bba12d576b493a9fa2645306875bc844",
+    "content-hash": "d3faf9d0c2f1694cb3d74f68d34fcf42",
     "packages": [
         {
             "name": "composer/installers",
@@ -176,16 +176,16 @@
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
-            "version": "1.0.1",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/quicksilver-pushback.git",
-                "reference": "32c65effd6802bdf829f1c68fb75ade2bd5894a0"
+                "reference": "e9e64afc0e3e02e611e87fa583075e4bd69876ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/quicksilver-pushback/zipball/32c65effd6802bdf829f1c68fb75ade2bd5894a0",
-                "reference": "32c65effd6802bdf829f1c68fb75ade2bd5894a0",
+                "url": "https://api.github.com/repos/pantheon-systems/quicksilver-pushback/zipball/e9e64afc0e3e02e611e87fa583075e4bd69876ca",
+                "reference": "e9e64afc0e3e02e611e87fa583075e4bd69876ca",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
                 "MIT"
             ],
             "description": "Push commits made via the Pantheon dashboard back to original GitHub repository.",
-            "time": "2017-07-21T17:10:28+00:00"
+            "time": "2019-09-12T18:18:26+00:00"
         },
         {
             "name": "pantheon-systems/wordpress-composer",
@@ -388,9 +388,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -408,9 +406,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -428,9 +424,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1046,6 +1040,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -2436,6 +2431,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-07-13T03:27:23+00:00"
         },
         {
