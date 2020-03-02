@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bba12d576b493a9fa2645306875bc844",
+    "content-hash": "421330a14ffe7a10c0bfae69e2e5bf01",
     "packages": [
         {
             "name": "composer/installers",
@@ -388,9 +388,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -400,17 +398,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-native-php-sessions",
-            "version": "0.6.9",
+            "version": "1.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-native-php-sessions/",
-                "reference": "tags/0.6.9"
+                "reference": "tags/1.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.1.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -428,9 +424,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1046,6 +1040,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1727,6 +1722,7 @@
                 "extension",
                 "wordpress"
             ],
+            "abandoned": true,
             "time": "2017-09-18T16:09:49+00:00"
         },
         {
@@ -2436,6 +2432,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-07-13T03:27:23+00:00"
         },
         {
@@ -4413,6 +4410,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2016-10-24T13:23:32+00:00"
         },
         {
@@ -4467,6 +4465,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
