@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bba12d576b493a9fa2645306875bc844",
+    "content-hash": "016c53014e3b10bfc0c9a4c6e71fc60a",
     "packages": [
         {
             "name": "composer/installers",
@@ -201,16 +201,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "4.9.8",
+            "version": "5.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "2b13d79e331571530f30f522dc457bbfbdb4cfff"
+                "reference": "c720696e36cb8cc3d69ee7f99184271da432d097"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/2b13d79e331571530f30f522dc457bbfbdb4cfff",
-                "reference": "2b13d79e331571530f30f522dc457bbfbdb4cfff",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/c720696e36cb8cc3d69ee7f99184271da432d097",
+                "reference": "c720696e36cb8cc3d69ee7f99184271da432d097",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +219,7 @@
             "type": "wordpress-core",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.x-dev"
+                    "dev-master": "5.x-dev"
                 },
                 "wordpress-install-dir": "web/wp"
             },
@@ -228,10 +228,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/4.9.8",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.4.1",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2018-08-03T01:46:12+00:00"
+            "time": "2020-04-29T22:56:11+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -388,9 +388,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -408,9 +406,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.9.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -428,9 +424,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1046,6 +1040,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
+            "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
@@ -1727,6 +1722,7 @@
                 "extension",
                 "wordpress"
             ],
+            "abandoned": true,
             "time": "2017-09-18T16:09:49+00:00"
         },
         {
@@ -2436,6 +2432,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2018-07-13T03:27:23+00:00"
         },
         {
@@ -4413,6 +4410,7 @@
                 "code",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-code",
             "time": "2016-10-24T13:23:32+00:00"
         },
         {
@@ -4467,6 +4465,7 @@
                 "events",
                 "zf2"
             ],
+            "abandoned": "laminas/laminas-eventmanager",
             "time": "2018-04-25T15:33:34+00:00"
         }
     ],
