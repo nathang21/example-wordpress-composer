@@ -22,7 +22,7 @@
     "rvtraveller/qs-composer-installer": "^1.1",
     "vlucas/phpdotenv": "^2.4.0",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.1.4",
-    "wpackagist-plugin/wp-native-php-sessions": "^0.6.0",
+    "wpackagist-plugin/wp-native-php-sessions": "^1.2.1",
     "wpackagist-theme/twentyseventeen": "^1.1"
   },
   "require-dev": {
